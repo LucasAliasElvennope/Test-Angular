@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
 })
 export class Header {
   
-  Image : string ="assets/gg.png";
+  Image : string ="src/assets/gg.png";
 
   afficherAlerte() {
     alert('Salut');
