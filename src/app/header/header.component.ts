@@ -5,6 +5,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./header.component.scss']
 })
 export class Header {
+  
+  Image : string ="assets/gg.png";
+
   afficherAlerte() {
     alert('Salut');
   }
