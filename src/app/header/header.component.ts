@@ -6,6 +6,6 @@ import { Component } from '@angular/core';
 })
 export class Header {
   afficherAlerte() {
-    alert('Test');
+    alert('Salut');
   }
 }

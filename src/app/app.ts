@@ -7,5 +7,4 @@ import { Header } from './header/header.component';
   styleUrl: './app.scss',
   imports: [Header]
 })
-export class App {
-}
+export class App {}
