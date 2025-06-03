@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { Header } from './header/header.component';
 import { HelloUser } from './hello-user/hello-user';
+import { MajusculePipe } from './majuscule-pipe';
 
 @Component({
   selector: 'app-root',
