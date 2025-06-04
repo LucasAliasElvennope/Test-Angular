@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import{CommonModule} from '@angular/common';
+
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
@@ -6,7 +8,7 @@ import { Component } from '@angular/core';
 })
 export class Header {
   
-  Image : string ="src/assets/gg.png";
+  image : string = "src/assets/gg.png";
 
   afficherAlerte() {
     alert('Salut');

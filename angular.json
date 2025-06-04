@@ -22,7 +22,8 @@
             "inlineStyleLanguage": "scss",
             "assets": [
               {
-                "glob": "**/*",
+
+                "glob": "*/",
                 "input": "src/assets",
                 "output": "assets"
               }
