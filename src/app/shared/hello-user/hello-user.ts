@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { MajusculePipe } from '../majuscule-pipe';
+import { MajusculePipe } from '../../majuscule-pipe';
 
 @Component({
   selector: 'app-hello-user',
