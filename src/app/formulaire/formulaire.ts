@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 
 @Component({
+  imports: [FormsModule],
   selector: 'app-formulaire',
-  imports: [],
   templateUrl: './formulaire.html',
   styleUrl: './formulaire.scss'
 })
 export class Formulaire {
-
+  nom = '';
 }
