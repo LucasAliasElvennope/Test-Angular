@@ -9,4 +9,11 @@ import { FormsModule } from '@angular/forms';
 })
 export class Formulaire {
   nom = '';
+  email = '';
+
+  envoyerFormulaire() {
+    console.log('✅ Formulaire envoyé !');
+    console.log('Nom :', this.nom);
+    console.log('Email :', this.email);
+  }
 }

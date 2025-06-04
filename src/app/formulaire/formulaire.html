@@ -1,3 +1,21 @@
-<h2>Test de [(ngModel)]</h2>
-    <input [(ngModel)]="nom" placeholder="Entre ton nom" />
-    <p>Bonjour, {{ nom || 'inconnu' }} ! 👋</p>
+<section id="formulaire">
+<form (ngSubmit)="envoyerFormulaire()">
+    <label>
+      Nom :
+      <input [(ngModel)]="nom" name="nom" required />
+    </label>
+    <br />
+    <label>
+      Email :
+      <input [(ngModel)]="email" name="email" required />
+    </label>
+    <br />
+    <button type="submit">Envoyer</button>
+  </form>
+  
+  <hr />
+  
+  <h3>Aperçu en direct :</h3>
+  <p><strong>Nom :</strong> {{ nom }}</p>
+  <p><strong>Email :</strong> {{ email }}</p>
+</section>
